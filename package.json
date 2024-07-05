@@ -1,10 +1,10 @@
 {
-  "name": "y",
+  "name": "@turbo/multer-cloudinary",
   "version": "1.0.0",
-  "description": "",
+  "description": "This package provides a custom storage engine for multer that seamlessly integrates with Cloudinary v2. It allows you to upload files directly to Cloudinary, a cloud-based media management service, using Express.js. The integration supports automatic generation of unique public IDs for uploaded files and handles file removal operations. Ideal for applications needing efficient file upload and management in cloud environments.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ts-node ./test.ts"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/Itszavier/multerCloudinaryStorage#readme",
   "devDependencies": {
+    "@types/multer": "^1.4.11",
     "dotenv": "^16.4.5",
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0"
@@ -33,5 +34,8 @@
     "cloudinary": "^2.2.0",
     "express": "^4.19.2",
     "multer": "^1.4.5-lts.1"
+  },
+  "dependencies": {
+    "nanoid": "^5.0.7"
   }
 }
