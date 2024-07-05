@@ -1,10 +1,9 @@
 {
   "name": "@fluidjs/multer-cloudinary",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This package provides a custom storage engine for multer that seamlessly integrates with Cloudinary v2. It allows you to upload files directly to Cloudinary, a cloud-based media management service, using Express.js. The integration supports automatic generation of unique public IDs for uploaded files and handles file removal operations. Ideal for applications needing efficient file upload and management in cloud environments.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
- 
   "scripts": {
     "test": "ts-node ./test.ts"
   },
@@ -13,22 +12,22 @@
     "url": "git+https://github.com/Itszavier/multerCloudinaryStorage.git"
   },
   "keywords": [
-  "multer",
-  "cloudinaryStorage",
-  "cloudinary",
-  "multerCloudinaryStorage",
-  "express",
-  "fileStorage",
-  "fileUpload",
-  "imageUpload",
-  "nodejs",
-  "javascript",
-  "typescript",
-  "server",
-  "backend",
-  "upload",
-  "file management"
-],
+    "multer",
+    "cloudinaryStorage",
+    "cloudinary",
+    "multerCloudinaryStorage",
+    "express",
+    "fileStorage",
+    "fileUpload",
+    "imageUpload",
+    "nodejs",
+    "javascript",
+    "typescript",
+    "server",
+    "backend",
+    "upload",
+    "file management"
+  ],
   "author": "Imani Brown(itsZavier)",
   "license": "MIT",
   "bugs": {
@@ -45,8 +44,5 @@
     "cloudinary": "^2.2.0",
     "express": "^4.19.2",
     "multer": "^1.4.5-lts.1"
-  },
-  "dependencies": {
-    "nanoid": "^5.0.7"
   }
 }
