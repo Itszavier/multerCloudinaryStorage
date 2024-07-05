@@ -1,0 +1,37 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Itszavier/multerCloudinaryStorage.git"
+  },
+  "keywords": [
+    "multer",
+    "cloudinaryStorage",
+    "cloudinary",
+    "multerCloudinaryStorage",
+    "express",
+    "fileStorage"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Itszavier/multerCloudinaryStorage/issues"
+  },
+  "homepage": "https://github.com/Itszavier/multerCloudinaryStorage#readme",
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0"
+  },
+  "peerDependencies": {
+    "cloudinary": "^2.2.0",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
