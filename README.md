@@ -6,7 +6,7 @@ multer-cloudinary is a custom storage engine for multer that enables seamless fi
 
 To install multer-cloudinary and its dependencies, use npm:
 
-- **@turbo/multer-cloudinary**: Custom multer storage engine for Cloudinary.
+- **@fluidjs/multer-cloudinary**: Custom multer storage engine for Cloudinary.
 - **multer**: Middleware for handling multipart/form-data, used for file uploads.
 - **express**: Web framework for Node.js used to build the server.
 - **cloudinary**: Official Cloudinary SDK for Node.js, providing APIs to interact with Cloudinary.
@@ -14,7 +14,7 @@ To install multer-cloudinary and its dependencies, use npm:
 
 
 ```shell
-npm i @turbo/multer-cloudinary cloudinary
+npm i @fluidjs/multer-cloudinary cloudinary
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ Create a TypeScript or JavaScript file (`server.ts` or `server.js`) and set up y
    ```typescript
    import express from 'express';
    import multer from 'multer';
-   import { CloudinaryStorage } from '@turbo/multer-cloudinary';
+   import { CloudinaryStorage } from '@fluidjs/multer-cloudinary';
    import { v2 as cloudinary } from 'cloudinary';
    import dotenv from 'dotenv';
 
