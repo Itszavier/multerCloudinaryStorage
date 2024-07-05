@@ -62,8 +62,10 @@ Create a TypeScript or JavaScript file (`server.ts` or `server.js`) and set up y
 
    // Example route to handle file upload
    app.post('/upload', upload.single('file'), (req, res) => {
-     console.log(req.file!.filename, req.file!.path);
+     console.log(req.file!.filename, req.file!.path); 
+     // filename is the public_id, and path is the url
      // Save to database or process further
+     
      res.json({ success: true });
    });
 
@@ -71,7 +73,7 @@ Create a TypeScript or JavaScript file (`server.ts` or `server.js`) and set up y
      console.log(`Server is running on http://localhost:${port}`);
    });
 
-
+```
 
 
 
